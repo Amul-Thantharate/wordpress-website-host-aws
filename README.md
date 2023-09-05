@@ -55,4 +55,4 @@ cd wordpress-website-host-aws/Setup-Files
 Run one by one command in the terminal
 ```
 
-These will setup you mysql-server and create a database and user for wordpress
+These will setup your mysql-server and create a database and user for wordpress
