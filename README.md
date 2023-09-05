@@ -40,3 +40,19 @@ ssh -i "keypair.pem" ec2-user@followed by public IP
 Step 4: Install Apache2 and mysql-server on the instance
 
 Go to the repository and clone the repository
+
+```
+https://github.com/Amul-Thantharate/wordpress-website-host-aws.git
+```
+
+Then Go to the wordpress-website-host-aws directory and go to the Setup-Files
+
+```
+cd wordpress-website-host-aws/Setup-Files
+1. sudo chmod +x 1-setup-mysql-server.sh
+2. sudo ./1-setup-mysql-server.sh
+        or
+Run one by one command in the terminal
+```
+
+These will setup you mysql-server and create a database and user for wordpress
